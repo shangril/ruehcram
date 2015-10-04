@@ -1,0 +1,2 @@
+Web/Site/Documentation
+Outputs the command and web scripts reference

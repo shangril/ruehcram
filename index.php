@@ -22,6 +22,12 @@ else if (isset($_GET ['nodisplay']))
 		die();
 		
 		}
+		else if (isset($_GET ['reference']))
+{
+		include ('reference.php');
+		die();
+		
+		}
 
 else if (isset($_GET ['software-get']))
 {

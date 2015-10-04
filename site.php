@@ -100,6 +100,7 @@ if (isset($_GET ['gear'])){
 		}
 if (isset($_GET ['software'])){
 		?>
+		<a href="./?reference=reference">Commands and web scripts reference</a>
 		<div>
 			Our software suite covers all the needs of modern travelers. 
 			<br/>
