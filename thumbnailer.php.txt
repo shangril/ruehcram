@@ -1,0 +1,2 @@
+Web/Site
+Generate thumbnails of jpg pictures on the fly

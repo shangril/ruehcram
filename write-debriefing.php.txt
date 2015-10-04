@@ -1,0 +1,3 @@
+Gear/Publish
+This command is used to write the text content of your diary's episode before you upload it to the web server. 
+It will scan the .ruehcram/data dir and for each media element, such as video or text file, display it using the system default application, and will prompt you for a text or html comment that will be inserted juste before it. Empty line means no text content. 

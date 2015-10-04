@@ -1,0 +1,2 @@
+Web/Software Channels
+A simple script to send file list to ruehcram client upon update request

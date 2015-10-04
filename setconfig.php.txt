@@ -1,0 +1,2 @@
+Gear/System/Internal
+Set a config option. Usage setconfig optionname value. 

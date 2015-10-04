@@ -1,0 +1,2 @@
+Web/Site
+Display or set the singleseat option. If set to an username, it will display its diary as the home page of the server. 

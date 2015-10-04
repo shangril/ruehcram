@@ -1,0 +1,10 @@
+#/bin/bash 
+if [ -f "$HOME/.ruehcram/ruehcram.php" ]
+then
+	php $HOME/.ruehcram/ruehcram.php "$@";
+elif [ -f "./ruehcram.php" ]
+then
+	php "./ruehcram.php" "$@";
+else
+	echo "ruehcram.php not found";
+fi

@@ -1,0 +1,3 @@
+Web/Site
+An example home page for a website. 
+Please note that index.php will crash if no site.php is present and no ruehcram GET parameter is given. 

@@ -1,0 +1,2 @@
+Gear/System
+Outputs the list of any command, or the list in a particular category if an argument is given. 

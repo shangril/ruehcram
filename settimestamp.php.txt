@@ -1,0 +1,3 @@
+Gear/Prepare
+Usage : ruehcram <episode timestamp. >This command look at the last modification time of any file in <.ruehcram>/datapre, and prepend a formated timestamp of the form yyyy-mm-dd_hh-mm-ss that will be used for sorting files on the server. 
+Typical usage is to import any of your content that does not have the timestamp in there file name, using the importpre command, then to run settimestamp that will rename them and move them to the specified ./ruehcram/data/<episode timestamp>, ready to be put online. 

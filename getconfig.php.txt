@@ -1,0 +1,2 @@
+Gear/System/Internal
+Get a config option. Usage getconfig optionname ; getconfig() returns then the value.  

@@ -1,0 +1,2 @@
+Web/Site
+Go back to the default multiseat install with site.php as landing page. 
