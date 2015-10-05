@@ -1,0 +1,2 @@
+Gear/Publish/Publishing
+Update your publishserver with your local content. In other word, publish your diary. 

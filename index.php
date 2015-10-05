@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+//error_reporting(0);
 
 if (!$sessionstarted){	
 	
@@ -13,6 +13,23 @@ if (isset($_GET ['ruehcram'])){
 if (isset($_GET ['software-list']))
 {
 		include ('software-list.php');
+		die();
+		
+		}
+		else if (isset($_GET ['accountcreator']))
+{
+		include ('accountcreator.php');
+		die();
+		
+		}
+		else if (isset($_GET ['getmtime']))
+{
+		include ('getmtime.php');
+		die();
+		
+		}else if (isset($_GET ['uploader']))
+{
+		include ('uploader.php');
 		die();
 		
 		}

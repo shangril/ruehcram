@@ -1,7 +1,7 @@
 <?php
 $target=$_GET ['software-get'];
 $target=str_replace('./', '', $target);
-if (!is_dir('./'.$target)&&file_exists('./'.$target))
+if (!is_dir('./'.$target)&&file_exists('./'.$target)&&!strstr($target, '.conf.php'))
 				{
 
 	if ($target!='ruehcram.php'){

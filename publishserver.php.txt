@@ -1,0 +1,2 @@
+Gear/System
+Display or set the name of the public Ruehcram server that will be used to publish your diary (like http://ruehcram.cremroadstudio.com ). 
