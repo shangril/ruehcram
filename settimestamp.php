@@ -1,4 +1,5 @@
 <?php
+if (!isset($_SERVER['HOME'])){die();}
 $dirs=scandir('./data');
 sort($dirs);
 array_reverse($dirs);

@@ -1,4 +1,5 @@
 <?php
+if (!isset($_SERVER['HOME'])){die();}
 if (isset($argv[0])){
 	echo 'for '.$argv[0]."\n";
 			}

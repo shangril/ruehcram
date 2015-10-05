@@ -1,4 +1,5 @@
 <?php
+if (!isset($_SERVER['HOME'])){die();}
 echo 'Listing installed software for category : ';
 if (isset($argv[0])){
 	echo $argv[0]."\n";

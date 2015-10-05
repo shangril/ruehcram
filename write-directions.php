@@ -1,4 +1,5 @@
 <?php
+if (!isset($_SERVER['HOME'])){die();}
 if (isset($argv[0])){
 
 $upfiles=scandir('./data/'.$argv[0]);

@@ -150,6 +150,10 @@ if (isset($_GET ['software'])){
 			Run the interactive command <br/>
 			<code>./ruehcram write-debriefing &lt;newest episode timestamp&gt;</code><br/>
 			It will open any non-text element one by one with your prefered default system application. Then you can enter text or html content that will be inserted before the element in the timeline. Enter a blank line if you don't want to add text before an element. 
+			<h5>Direction icon for photo pictures</h5>
+			Run the interactive command <br/>
+			<code>./ruehcram write-debriefing &lt;newest episode timestamp&gt;</code><br/>
+			It will open any jpeg one by one with your prefered default system application. Then you can set a direction icon than will be aside the picture. Enter a blank line if you don't want to add one. 
 			<h5>Uploading</h5>
 			todo : write account creation utility. Write data pushing utility. 
 			</div>

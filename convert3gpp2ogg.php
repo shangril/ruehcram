@@ -1,4 +1,5 @@
 <?php
+if (!isset($_SERVER['HOME'])){die();}
 $contentup=scandir('./data');
 sort($contentup);
 $contentup=array_reverse($contentup);
