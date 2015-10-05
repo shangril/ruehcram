@@ -106,10 +106,9 @@ if (isset($_GET ['software'])){
 			<br/>
 			Both gear software and website server side software are GPL Affero licenses and can be downloaded and used without restriction. The ruehcram utility is used to keep your installation up-to-date and to interact with your ruehcram system. <br/>
 			To get started, download <a href="?software-get=ruehcram">the ruehcram shell script</a> and <a href="?software-get=ruehcram.php">ruehcram.php</a>. Make sure you have php installed. 
-			Then run the command <br/><code>./ruehcram server http://ruehcram.cremroadstudio.com</code><br/> in a terminal to set the target server. This will create a ~/.ruehcram directory in your home folder to host your local installation <br/>
-			Then run <br/><code>./ruecram</code><br/> to update your installation<br/> 
+			Then run the command <br/><code>./ruehcram</code><br/> in a terminal to set the target server. This will create a ~/.ruehcram directory in your home folder to host your local installation and update it<br/> 
 			<div>
-			System requirement : Unix or BSD style OS (no support for windows) with utf-8 character encoding enabled, PHP (tested with PHP 5)<br/>
+			System requirement : Unix or BSD style OS (no support for windows) with utf-8 character encoding enabled, PHP>5.5, CURL php extension<br/>
 			Optional dependencies : avconv for 3gpp to ogg conversion, xdg-open for debriefing writing<br/>
 			Web server requirement : PHP and GD library<br/>
 			<h3>The basis</h3>
@@ -123,6 +122,12 @@ if (isset($_GET ['software'])){
 			<em>The ruehcram timestamp format is YYYY-MM-DD_HH-MM-SS</em><br/>
 			In this directory you also have a meta/title.txt file, that contains the title of the episode. <br/>
 			<h3>The workflow</h3>
+			<h4>Setting up an account on a public server</h4>
+			run <code>./ruehcram server &lt;server&gt;</code> if you which to set a different server from the one from which your pulled the software for your software update. <br/>
+			run <code>./ruehcram publishserver &lt;publishserver&gt;</code> to set your publishing server, as an example http://ruehcram.cremroadstudio.com. <br/>
+			run <code>./ruehcram setusername &lt;username&gt;</code> to set your username. 
+			Then ultimately run <code>./ruehcram createaccount</code> to create your account. You will be prompet for a password, unless you ran <code>./ruehcram setpassword</code> to store it locally.
+			<h4>The ride</h4>
 			<em>Before you start, make sure your camera and your phone have their clock accurately synchronised</em><br/>
 			<h4>Once at home</h4>
 			First, create a new episode with <br/>
@@ -155,7 +160,7 @@ if (isset($_GET ['software'])){
 			<code>./ruehcram write-debriefing &lt;newest episode timestamp&gt;</code><br/>
 			It will open any jpeg one by one with your prefered default system application. Then you can set a direction icon than will be aside the picture. Enter a blank line if you don't want to add one. 
 			<h5>Uploading</h5>
-			todo : write account creation utility. Write data pushing utility. 
+			<code>./ruehcram publish</code>
 			</div>
 			
 		</div>
